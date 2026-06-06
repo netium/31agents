@@ -1,0 +1,198 @@
+Eiffel Tower (Tour Eiffel)
+
+Source: Wikipedia, https://en.wikipedia.org/wiki/Eiffel_Tower
+
+Overview
+--------
+The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.
+It is named after the engineer Gustave Eiffel, whose company designed and built the tower
+from 1887 to 1889. Locally nicknamed "La dame de fer" (French for "Iron Lady"), it was
+constructed as the centrepiece of the 1889 World's Fair and to crown the centennial
+anniversary of the French Revolution. Although initially criticised by some of France's
+leading artists and intellectuals for its design, it has since become a global cultural
+icon of France and one of the most recognisable structures in the world.
+
+Key Facts
+---------
+- Type: Observation tower, broadcasting tower
+- Location: 7th arrondissement of Paris, France
+- Coordinates: 48.8584° N, 2.2945° E
+- Construction started: 28 January 1887
+- Completed: 31 March 1889
+- Opened to the public: 15 May 1889
+- Owner: City of Paris, France
+- Operator: Société d'Exploitation de la Tour Eiffel (SETE)
+- Architectural height: 300 m (984 ft)
+- Height to tip (with antenna): 330 m (1,083 ft)
+- Height of top floor: 276 m (906 ft)
+- Floor count: 4 (3 accessible to visitors)
+- Lifts/elevators: 8
+- Base: square, 125 m (410 ft) on each side
+- Mass: approximately 7,300 tonnes of wrought iron (plus ~60 tonnes of paint)
+- Designated a monument historique in 1964
+- Part of UNESCO World Heritage Site "Paris, Banks of the Seine" since 1991
+- Was the tallest human-made structure in the world from 1889 until 1930
+  (41 years), when it was surpassed by the Chrysler Building in New York City.
+- First structure in the world to exceed both the 200 m and 300 m height marks.
+
+Designers and Construction
+--------------------------
+- Original design concept: Maurice Koechlin and Émile Nouguier, two senior engineers
+  working for the Compagnie des Établissements Eiffel. Koechlin made the first sketch
+  in May 1884, describing it as "a great pylon, consisting of four lattice girders
+  standing apart at the base and coming together at the top, joined together by metal
+  trusses at regular intervals".
+- Architectural refinements: Stephen Sauvestre, head of the company's architectural
+  department (added decorative arches at the base, a glass pavilion on the first level,
+  and other embellishments).
+- Structural engineers: Maurice Koechlin and Émile Nouguier.
+- Architect of record: Stephen Sauvestre.
+- Main contractor: Compagnie des Établissements Eiffel (owned by Gustave Eiffel).
+- Construction contract signed: 8 January 1887. Eiffel signed in his own capacity and
+  was granted 1.5 million francs toward construction (less than a quarter of the
+  estimated 6.5 million franc cost). He was to receive all commercial income from the
+  tower for 20 years.
+- Financing: partly funded through loans from the Crédit Industriel et Commercial (CIC)
+  bank, which (controversially) included predatory loans to the National Bank of Haiti
+  connected to the Haiti indemnity controversy.
+
+History
+-------
+- Origin: Designed as the centrepiece of the 1889 Exposition Universelle, celebrating
+  the centennial of the French Revolution. Koechlin's initial 1884 sketch evolved
+  through Sauvestre's architectural input. Eiffel's plans were presented to the
+  Société des Ingénieurs Civils on 30 March 1885. The project was effectively locked
+  in on 1 May 1886 when the terms of the open competition were altered to require a
+  300 m four-sided metal tower on the Champ de Mars.
+- Artists' protest (1887): A "Committee of Three Hundred" (one member per metre of
+  height), led by architect Charles Garnier and including artists such as
+  William-Adolphe Bouguereau, Guy de Maupassant, Charles Gounod, and Jules Massenet,
+  published a petition called "Artists against the Eiffel Tower" in Le Temps on
+  14 February 1887. The petition called the tower "useless and monstrous" and warned
+  it would dominate Paris "like a gigantic black smokestack". Eiffel countered by
+  comparing the tower to the Egyptian pyramids: "My tower will be the tallest edifice
+  ever erected by man. Will it not also be grandiose in its way? And why would
+  something admirable in Egypt become hideous and ridiculous in Paris?" Maupassant is
+  said to have dined daily in the tower's restaurant because it was the only place in
+  Paris where the tower was not visible.
+- Construction: Work on the foundations began 28 January 1887. The east and south legs
+  rested on four 2 m concrete slabs each. The west and north legs, closer to the Seine,
+  required compressed-air caissons 15 m long and 6 m in diameter driven to 22 m depth
+  to support 6 m thick concrete slabs, which in turn supported limestone blocks with
+  inclined tops to bear the ironwork.
+- Inauguration: Opened on 15 May 1889 as the entrance arch to the 1889 World's Fair.
+- Subsequent events: Used as a giant radio antenna; a permanent radio aerial added at
+  the top in 1957 made it 11 m taller than the Chrysler Building. Survived attempts to
+  dismantle and sell it for scrap after its 20-year permit expired in 1909. Played
+  important roles in both World Wars, including as a radio transmission tower. Has
+  been painted approximately every 7 years to prevent rust; the current paint scheme
+  since 1968 uses three shades (darker at the bottom, lighter at the top) to enhance
+  the visual impression of uniformity with the sky.
+
+Design
+------
+- Material: Wrought iron (puddled iron, produced in Pompey, Meurthe-et-Moselle, by
+  the Pompey steelworks). About 7,300 tonnes of iron, 2.5 million rivets, and 18,038
+  individual iron pieces. The iron was chosen for its strength, light weight, and
+  resistance to corrosion.
+- Wind resistance: Designed to resist wind forces; the structure only sways a few
+  centimetres at the top even in strong winds. Wind considerations significantly
+  influenced the parabolic curvature of the legs.
+- Floors:
+  - Ground floor: open-air base, accessible for free; houses exhibits and a small
+    souvenir shop.
+  - 1st floor (57 m / 187 ft): glass-walled pavilion (designed by Sauvestre); features
+    the 58 Tour Eiffel restaurant (renovated in 2022) and the Macaron bar by
+    Pierre Hermé. Has transparent floor sections installed in 2014.
+  - 2nd floor (115 m / 377 ft): features the Jules Verne restaurant (one-Michelin-star
+    as of recent years) and an observation area.
+  - 3rd floor / top (276 m / 906 ft): the highest public observation deck in the
+    European Union. Includes a private apartment originally built for Gustave Eiffel,
+    furnished with furniture by Jean Lachaise. Hosts Thomas Edison's recorded message
+    and wax figures of Eiffel and Edison.
+- Lifts: 8 lifts total, including the original hydraulic lifts designed by the Otis
+  Elevator Company. Original lifts travelled at a modest speed; modern replacements
+  have updated the system while preserving the appearance of the original machinery
+  rooms on view at the base.
+- Stairs: 1,665 steps from ground to top. Visitors may walk or climb stairs to the
+  first and second levels. The climb from ground to first level is over 300 steps, as
+  is the climb from the first to the second level (total 600 steps). The top level is
+  only reachable by lift.
+- Engraved names: On the tower just above the first level, the names of 72 prominent
+  French scientists, engineers, and mathematicians are engraved in 60 cm letters
+  (later painted over but still visible), in recognition of their contributions.
+- Aesthetics: Eiffel hired French architect Stephen Sauvestre to add ornamental
+  touches that helped win public approval. The graceful parabolic curve of the legs
+  is the result of engineering calculations, not arbitrary style.
+- Maintenance: Repainted approximately every 7 years. The full repaint cycle requires
+  about 60 tonnes of paint. Until 2010 the tower was painted by hand; the work
+  transitioned to specialised rollers. The 2014–2025 repaint cycle was the first to
+  use a paint free of lead (which had been standard until then), and the first to
+  introduce an anti-graffiti coating.
+
+Communications
+--------------
+- Used as a radio transmission tower from early in its existence. A 1920s antenna
+  atop the tower made it the tallest structure in the world again for a time.
+- Carries numerous FM radio and digital television transmitters serving the Paris
+  region.
+- Notable analog TV transmitter serving France was shut down with the digital
+  transition.
+
+Dimensions and Height
+---------------------
+- The tower's height varies by a few centimetres depending on temperature, since
+  the iron expands when heated. On cold days the tower can be up to 15 cm shorter
+  than on hot days.
+- The 330 m height to tip includes the current top antenna (installed 1957, replaced
+  several times since). Without the antenna, the architectural height remains 300 m.
+- Excluding transmitters, the Eiffel Tower is the second tallest free-standing
+  structure in France after the Millau Viaduct.
+
+Tourism
+-------
+- Most visited paid monument in the world: 6.91 million visitors in 2015; 5.89
+  million in 2022 (lower post-COVID).
+- Average of about 7 million visitors per year in normal times.
+- Transport access: Closest Métro stations are Bir-Hakeim and École Militaire
+  (line 6); RER C station Champ de Mars – Tour Eiffel. Numerous bus lines and the
+  Batobus river shuttle also serve the site.
+- Stair access tickets are cheaper than lift access, but more strenuous.
+
+Cultural Significance and Trivia
+--------------------------------
+- Has become the global symbol of Paris and of France.
+- Featured prominently in countless films, books, and works of art.
+- An illumination copyright (described as "luminous heritage") protects the specific
+  sparkling-light display installed by Pierre Bideau in 1985; this is separate from
+  the tower's image copyright.
+- Sparkles for 5 minutes every hour after dark, using ~20,000 bulbs.
+- Has hosted sporting events (climbing races, cycling), BASE jumping stunts, and
+  a temporary ice rink.
+- Used in scientific experiments multiple times, including Einstein's
+  involvement in radio contact with the United States in 1924, and as a platform
+  for early radio and television broadcasting experiments.
+
+Replicas
+--------
+- Numerous full-size and scaled replicas exist worldwide. Notable ones include:
+  - Tokyo Tower (Japan, 1958) — 333 m, inspired by but taller than the Eiffel Tower
+  - Las Vegas replica (Paris Las Vegas hotel) at half scale
+  - Replicas in Shenzhen (China), Slobozia (Romania), and many US cities
+  - A replica at the Window of the World theme park in Shenzhen
+  - A replica at Paris Las Vegas (half scale, 165 m)
+  - The Blackpool Tower (UK, 1894) and the 1:3 replica at the Pilton Park "Eiffel
+    Tower" in Paris, Texas are other notable examples.
+
+See Also
+--------
+- Gustave Eiffel (engineer)
+- Exposition Universelle (1889)
+- List of tallest towers
+- Champ de Mars
+- World's Columbian Exposition (for context on Eiffel-era engineering)
+
+References
+----------
+Primary source for this document: Wikipedia article "Eiffel Tower",
+https://en.wikipedia.org/wiki/Eiffel_Tower (revision 1355037264).
