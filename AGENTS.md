@@ -22,19 +22,37 @@ Run a script in the managed venv:
 ```
 uv run python main.py
 uv run python knowledge-retrival-agent.py
+uv run python react.py
 ```
 Install / sync deps after editing `pyproject.toml` or `uv.lock`:
 ```
 uv sync
+uv sync --group dev        # include pytest
 ```
+Run the test suite:
+```
+uv run --group dev pytest
+```
+Run only the fast unit tests (skip the LLM-as-judge set, which hits Ollama and is slow):
+```
+uv run --group dev pytest -m "not llm"
+```
+Run only the LLM-as-judge tests (requires a running Ollama; ~30s+ per test with `qwen3.6:35b`):
+```
+uv run --group dev pytest -m llm
+```
+
+## Layout
+- `agents/` — subpackage: `__init__.py` re-exports `ReactAgent`; `react_agent.py` holds the class; `_tools.py` holds private schema helpers.
+- `react.py` — demo entrypoint that wires the agent to two sample tools (`add`, `get_weather`) and runs a REPL.
+- `tests/` — pytest tests (config in `pyproject.toml` under `[tool.pytest.ini_options]`).
 
 ## What is NOT configured
 Do not look for any of the following — they have not been set up:
-- Test framework (no `pytest`, `tests/`, or test config in `pyproject.toml`)
 - Linter / formatter (no `ruff`, `black`, `mypy` config)
 - CI workflows (no `.github/`)
 - Pre-commit hooks (`.git/hooks/` has no active hooks)
-- `.gitignore` (only the empty `.venv/.gitignore` exists; root has none)
+- `.gitignore` at repo root (only the empty `.venv/.gitignore` exists)
 
 If a task requires any of these, set them up before relying on them.
 
