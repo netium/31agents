@@ -67,18 +67,20 @@ class ReactAgent:
 
     def call(self, input: str, history: list[dict[str, str]] = None) -> str:
 
-        conversation_history = history if history else []
-
         messages = [
             {
-                "role": "system", 
+                "role": "system",
                 "content": "You are a helpful assistant, you can call functions to get information or perform tasks, you shall always prefer to use the tools provided to you if needed. If you don't know the answer, say you don't know."
-            },
-            {
-                "role": "user", 
-                "content": input
             }
         ]
+
+        if history:
+            messages.extend(history)
+
+        messages.append({
+            "role": "user",
+            "content": input
+        })
 
         iter_num = 1
 
@@ -148,11 +150,31 @@ def main():
 
     agent = ReactAgent(llm)
 
-    question = "What is the sum of 5 and 10, and what is the weather for New York? Pls reply the answer in Chinese."
+    history: list[dict[str, str]] = []
 
-    answer = agent.call(question)
+    print("ReAct Agent — type '/exit', '/quit', or '/bye' to stop, or press Ctrl-D / Ctrl-C to end.")
 
-    print(f"Answer: {answer}")
+    while True:
+        try:
+            user_input = input("\nYou: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nGoodbye!")
+            break
+
+        if not user_input:
+            continue
+
+        if user_input.lower() in ("/exit", "/quit", "/bye"):
+            print("Goodbye!")
+            break
+
+        answer = agent.call(user_input, history=history)
+
+        print(f"\nAssistant: {answer}")
+
+        history.append({"role": "user", "content": user_input})
+        history.append({"role": "assistant", "content": answer})
+
 
 if __name__ == "__main__":
     main()
