@@ -141,6 +141,8 @@ class ReactAgent:
         when there are no tools, or when `top_k` is non-positive.
         """
         if not self._filter_enabled or self._top_k <= 0 or not self._tools_schema:
+            names = [s["function"]["name"] for s in self._tools_schema]
+            print(f"Selected tools (no filter): {names}")
             return self._tools_schema
 
         try:
@@ -159,7 +161,10 @@ class ReactAgent:
 
         selected = [self._tools_schema_by_name[n] for n in names if n in self._tools_schema_by_name]
         if not selected:
+            names = [s["function"]["name"] for s in self._tools_schema]
+            print(f"Selected tools (empty result, fell back to all): {names}")
             return self._tools_schema
+        print(f"Selected tools: {[s['function']['name'] for s in selected]}")
         return selected
 
     def _handle_tool_calls(self, tool_calls) -> dict:
