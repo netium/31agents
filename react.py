@@ -29,8 +29,8 @@ def get_weather(location: str) -> str:
 
 def main():
     llm = OpenAI(
-        base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434/v1"),
-        api_key=os.getenv("OLLAMA_API_KEY", "ollama")
+        base_url=os.getenv("OPENAPI_BASE_URL", "http://localhost:11434/v1"),
+        api_key=os.getenv("OPENAPI_API_KEY", "ollama")
     )
 
     agent = ReactAgent(llm, tools=[add, get_weather])

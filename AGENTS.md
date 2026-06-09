@@ -16,6 +16,11 @@ There is no `src/`, no package layout, no tests directory.
 ## Environment
 - Secrets are read from `.env` (loaded with `dotenv.load_dotenv()`).
 - Current key in `.env`: `MINIMAX_API_KEY`. Add new keys to `.env`, not into tracked files.
+- `OLLAMA_BASE_URL`, `OLLAMA_LLM_MODEL` — LLM endpoint/model.
+- `OLLAMA_EMBEDDING_MODEL` (default `nomic-embed-text`) — embedding model used by the tool pre-filter.
+- `REACT_TOOL_TOP_K` (default `5`) — max number of tools sent to the LLM after the semantic pre-filter.
+- `REACT_TOOL_FILTER` (default `1`, set to `0` to disable) — toggle the tool pre-filter.
+- `REACT_TOOL_RETRIEVER` (default `ollama`, alt `identity`) — chooses the retriever implementation. `identity` returns every tool in declaration order and skips the embedding call.
 
 ## Common commands
 Run a script in the managed venv:
@@ -55,6 +60,13 @@ Do not look for any of the following — they have not been set up:
 - `.gitignore` at repo root (only the empty `.venv/.gitignore` exists)
 
 If a task requires any of these, set them up before relying on them.
+
+## Things SHALL NOT Do
+
+Pls do not do the following things:
+
+- Read the '.env' file
+- Write the '.env' file
 
 ## Git
 - Default branch: `main` (only branch, single initial commit)

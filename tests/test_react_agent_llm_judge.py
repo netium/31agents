@@ -20,6 +20,7 @@ from urllib.request import urlopen
 import pytest
 from openai import OpenAI
 
+from agents._retriever import IdentityRetriever
 from agents.react_agent import ReactAgent
 from react import add, get_weather
 
@@ -44,7 +45,11 @@ def _make_llm() -> OpenAI:
 
 
 def _make_agent() -> ReactAgent:
-    return ReactAgent(llm=_make_llm(), tools=[add, get_weather])
+    return ReactAgent(
+        llm=_make_llm(),
+        tools=[add, get_weather],
+        retriever=IdentityRetriever(["add", "get_weather"]),
+    )
 
 
 @pytest.fixture(autouse=True)
